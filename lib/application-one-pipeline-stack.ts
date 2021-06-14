@@ -43,7 +43,7 @@ export class ApplicationOnePipelineStack extends Stack {
         // ...
         pipeline.addApplicationStage(
             new ApplicationOneStage(this, "QA", {
-                env: { account: "ACCOUNT1", region: "us-east-2" },
+                env: { account: "062595127895", region: "us-west-2" },
             })
         );
     }
