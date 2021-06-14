@@ -25,6 +25,7 @@ export class ApplicationOnePipelineStack extends Stack {
                 oauthToken: SecretValue.secretsManager("github-token"),
                 owner: "amirhajimirsadeghi",
                 repo: "application-one",
+                branch: "main",
             }),
 
             // How it will be built and synthesized
